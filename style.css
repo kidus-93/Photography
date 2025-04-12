@@ -97,6 +97,10 @@
     object-fit: cover;
     z-index: -1; /* Send the video behind the content */
   }
+  .home{
+    max-height: 100vh;
+    max-width: 100vw;
+  }
   .Logo{
     color: #333 ;
   }
@@ -195,3 +199,44 @@
 }
 
 /* page 2 */
+#About_us{
+    background-color: #D3D3D3;
+    font-size: 1rem;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    
+
+
+}
+.C_content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.word_content, .img_content{
+    margin:0px 20px; 
+    height: 100vh;
+    
+}
+.word_content{
+    width: 40vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+.img_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_content img{
+    width: 400px;
+    height: 600px ;
+
+}
